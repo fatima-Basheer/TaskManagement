@@ -149,7 +149,7 @@ function ProjectCard() {
             <div className="flex justify-center">
               <button
                 onClick={() => dispatch(selectProject(p.id))}
-                className="text-blue-600"
+                className="text-blue-600 cursor-pointer"
               >
                 Update
               </button>
